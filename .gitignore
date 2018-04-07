@@ -1,0 +1,9 @@
+.vscode/launch.json
+sonarlint.json
+
+\.sonar/
+test-reports/
+coverage/
+*.ospx
+*.cf
+ConfigDumpInfo.xml
