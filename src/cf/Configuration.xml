@@ -120,9 +120,9 @@
 			<Language>Русский</Language>
 			<Subsystem>ктв_РеализацияИнтерфейсов</Subsystem>
 			<CommonTemplate>ктв_Логирование_Версия</CommonTemplate>
-			<CommonModule>ктв_сб_ОбработкиОбслуживания</CommonModule>
-			<CommonModule>ктв_сб_ОбработкиОбслуживанияВызовСервера</CommonModule>
-			<CommonModule>ктв_сб_ОбработкиОбслуживанияКлиент</CommonModule>
+			<CommonModule>ктв_ОбработкиОбслуживания</CommonModule>
+			<CommonModule>ктв_ОбработкиОбслуживанияВызовСервера</CommonModule>
+			<CommonModule>ктв_ОбработкиОбслуживанияКлиент</CommonModule>
 			<CommonModule>ктв_Логирование</CommonModule>
 			<Catalog>ктв_СпособыЛогирования</Catalog>
 			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
