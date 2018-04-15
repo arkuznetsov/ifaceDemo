@@ -17,6 +17,14 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ктв_Лог_ЖурналРегистрации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ктв_Логирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ктв_ЛогированиеДемо</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ктв_Лог_ЗаписьВФайлы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ктв_СпособыЛогирования</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ктв_ИспользованиеИменЛогов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ктв_Логирование_Версия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ктв_ЛогированиеВызовСервера</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ктв_Логирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ктв_ЛогированиеКлиент</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
