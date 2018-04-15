@@ -135,6 +135,7 @@
 			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ктв_Логирование</DataProcessor>
 			<DataProcessor>ктв_ЛогированиеДемо</DataProcessor>
+			<DataProcessor>ктв_Лог_ЗаписьВФайлы</DataProcessor>
 			<InformationRegister>ктв_ИспользованиеИменЛогов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
