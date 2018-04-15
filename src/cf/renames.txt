@@ -26,6 +26,7 @@ CommonTemplates\ктв_Логирование_Версия.xml-->CommonTemplates
 CommonTemplates\ктв_Логирование_Версия\Ext\Template.txt-->CommonTemplates\ктв_Логирование_Версия\Ext\Template.txt
 DataProcessors\ктв_Лог_ЖурналРегистрации.xml-->DataProcessors\ктв_Лог_ЖурналРегистрации.xml
 DataProcessors\ктв_Логирование.xml-->DataProcessors\ктв_Логирование.xml
+DataProcessors\ктв_ЛогированиеДемо.xml-->DataProcessors\ктв_ЛогированиеДемо.xml
 DataProcessors\ктв_Лог_ЖурналРегистрации\Ext\ObjectModule.bsl-->DataProcessors\ктв_Лог_ЖурналРегистрации\Ext\ObjectModule.bsl
 DataProcessors\ктв_Лог_ЖурналРегистрации\Forms\Форма.xml-->DataProcessors\ктв_Лог_ЖурналРегистрации\Forms\Форма.xml
 DataProcessors\ктв_Лог_ЖурналРегистрации\Forms\Форма\Ext\Form.xml-->DataProcessors\ктв_Лог_ЖурналРегистрации\Forms\Форма\Ext\Form.xml
@@ -33,6 +34,10 @@ DataProcessors\ктв_Логирование\Ext\ObjectModule.bsl-->DataProcesso
 DataProcessors\ктв_Логирование\Forms\Форма.xml-->DataProcessors\ктв_Логирование\Forms\Форма.xml
 DataProcessors\ктв_Логирование\Forms\Форма\Ext\Form.xml-->DataProcessors\ктв_Логирование\Forms\Форма\Ext\Form.xml
 DataProcessors\ктв_Логирование\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ктв_Логирование\Forms\Форма\Ext\Form\Module.bsl
+DataProcessors\ктв_ЛогированиеДемо\Forms\Форма.xml-->DataProcessors\ктв_ЛогированиеДемо\Forms\Форма.xml
+DataProcessors\ктв_ЛогированиеДемо\Forms\Форма\Ext\Form.xml-->DataProcessors\ктв_ЛогированиеДемо\Forms\Форма\Ext\Form.xml
+DataProcessors\ктв_ЛогированиеДемо\Forms\Форма\Ext\Form\Module.bsl-->DataProcessors\ктв_ЛогированиеДемо\Forms\Форма\Ext\Form\Module.bsl
+Ext\MainSectionCommandInterface.xml-->Ext\MainSectionCommandInterface.xml
 InformationRegisters\ктв_ИспользованиеИменЛогов.xml-->InformationRegisters\ктв_ИспользованиеИменЛогов.xml
 InformationRegisters\ктв_ИспользованиеИменЛогов\Commands\ИменаЛогов\Ext\CommandModule.bsl-->InformationRegisters\ктв_ИспользованиеИменЛогов\Commands\ИменаЛогов\Ext\CommandModule.bsl
 InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов.xml-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов.xml

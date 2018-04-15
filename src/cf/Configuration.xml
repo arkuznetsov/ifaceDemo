@@ -45,7 +45,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>KTB</Vendor>
-			<Version>0.0.2.0</Version>
+			<Version>1.0.0.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -134,6 +134,7 @@
 			<Catalog>ктв_СпособыЛогирования</Catalog>
 			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ктв_Логирование</DataProcessor>
+			<DataProcessor>ктв_ЛогированиеДемо</DataProcessor>
 			<InformationRegister>ктв_ИспользованиеИменЛогов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
