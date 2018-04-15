@@ -28,8 +28,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>ФасадВ1С_Демо</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Фасад в 1С (Демо)</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
@@ -39,8 +44,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
+			<Vendor>KTB</Vendor>
+			<Version>0.0.2.0</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -123,7 +128,9 @@
 			<CommonModule>ктв_ОбработкиОбслуживания</CommonModule>
 			<CommonModule>ктв_ОбработкиОбслуживанияВызовСервера</CommonModule>
 			<CommonModule>ктв_ОбработкиОбслуживанияКлиент</CommonModule>
+			<CommonModule>ктв_ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ктв_Логирование</CommonModule>
+			<CommonModule>ктв_ЛогированиеКлиент</CommonModule>
 			<Catalog>ктв_СпособыЛогирования</Catalog>
 			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ктв_Логирование</DataProcessor>
