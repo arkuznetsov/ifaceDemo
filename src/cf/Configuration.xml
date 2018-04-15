@@ -128,13 +128,13 @@
 			<CommonModule>ктв_ОбработкиОбслуживания</CommonModule>
 			<CommonModule>ктв_ОбработкиОбслуживанияВызовСервера</CommonModule>
 			<CommonModule>ктв_ОбработкиОбслуживанияКлиент</CommonModule>
-			<CommonModule>ктв_ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ктв_Логирование</CommonModule>
+			<CommonModule>ктв_ЛогированиеВызовСервера</CommonModule>
 			<CommonModule>ктв_ЛогированиеКлиент</CommonModule>
 			<Catalog>ктв_СпособыЛогирования</Catalog>
-			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ктв_Логирование</DataProcessor>
 			<DataProcessor>ктв_ЛогированиеДемо</DataProcessor>
+			<DataProcessor>ктв_Лог_ЖурналРегистрации</DataProcessor>
 			<DataProcessor>ктв_Лог_ЗаписьВФайлы</DataProcessor>
 			<InformationRegister>ктв_ИспользованиеИменЛогов</InformationRegister>
 		</ChildObjects>
