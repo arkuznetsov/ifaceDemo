@@ -23,10 +23,12 @@
 		<InputField name="КаталогЛогирования" id="10">
 			<DataPath>КаталогЛогирования</DataPath>
 			<ChoiceButton>true</ChoiceButton>
+			<OpenButton>true</OpenButton>
 			<ContextMenu name="КаталогЛогированияКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="КаталогЛогированияРасширеннаяПодсказка" id="12"/>
 			<Events>
 				<Event name="StartChoice">КаталогЛогированияНачалоВыбора</Event>
+				<Event name="Opening">КаталогЛогированияОткрытие</Event>
 			</Events>
 		</InputField>
 		<InputField name="МаксРазмерЛога" id="13">
