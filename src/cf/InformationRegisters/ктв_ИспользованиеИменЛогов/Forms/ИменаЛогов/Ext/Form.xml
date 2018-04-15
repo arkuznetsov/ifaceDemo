@@ -58,7 +58,7 @@
 				<InputField name="ИмяЛога" id="17">
 					<DataPath>НаборЗаписей.ИмяЛога</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceButton>true</ChoiceButton>
 					<ContextMenu name="ИмяЛогаКонтекстноеМеню" id="18"/>
 					<ExtendedTooltip name="ИмяЛогаРасширеннаяПодсказка" id="19"/>
 					<Events>
