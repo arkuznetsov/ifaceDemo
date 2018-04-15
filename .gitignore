@@ -8,3 +8,4 @@ coverage/
 *.cf
 ConfigDumpInfo.xml
 log/
+*.dt
