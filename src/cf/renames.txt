@@ -46,6 +46,7 @@ InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\�
 InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов\Ext\Form.xml-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов\Ext\Form.xml
 InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов\Ext\Form\Module.bsl-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ИменаЛогов\Ext\Form\Module.bsl
 InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаЗаписи\Ext\Form.xml-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаЗаписи\Ext\Form.xml
+InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаЗаписи\Ext\Form\Module.bsl-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаЗаписи\Ext\Form\Module.bsl
 InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаСписка\Ext\Form.xml-->InformationRegisters\ктв_ИспользованиеИменЛогов\Forms\ФормаСписка\Ext\Form.xml
 Languages\Русский.xml-->Languages\Русский.xml
 Subsystems\ктв_РеализацияИнтерфейсов.xml-->Subsystems\ктв_РеализацияИнтерфейсов.xml
