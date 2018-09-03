@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40854323-6505-44fb-ba7f-5267311786c8">
+  <name>ктв_Логирование_Версия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия подсистемы логирования</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

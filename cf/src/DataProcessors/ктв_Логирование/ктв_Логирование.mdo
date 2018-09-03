@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f83d45c4-0bd9-44ec-9788-fd8964ea2b55">
+  <producedTypes>
+    <objectType typeId="371bbed5-d022-41e2-b80f-188191009d91" valueTypeId="966a3514-932f-4723-918b-95d525c004bb"/>
+    <managerType typeId="54b2193a-949e-4516-897e-c30164969a50" valueTypeId="92a0055e-2b11-4bd4-b8c8-d60311680d46"/>
+  </producedTypes>
+  <name>ктв_Логирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ктв_Логирование.Form.Форма</defaultForm>
+  <attributes uuid="989832af-c0fd-4462-8d8a-97221d98eb39">
+    <name>ИмяЛога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя лога</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74dd52f9-d3d1-4fe9-a70e-5f98fb7cd038">
+    <name>ПараметрыЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры записи</value>
+    </synonym>
+    <comment></comment>
+    <type/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="019bbee3-9aab-47d4-8975-6e81c9f95dfa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

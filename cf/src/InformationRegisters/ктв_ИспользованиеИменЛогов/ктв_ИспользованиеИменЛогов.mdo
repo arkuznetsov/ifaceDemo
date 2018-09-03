@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d09bda69-79d5-4915-990d-47d7fe8dc3af">
+  <producedTypes>
+    <selectionType typeId="9bac5ba7-e93d-4a20-90c3-ebca2edc8660" valueTypeId="94f7ef82-310f-4eef-b7b0-17cf38dfcf25"/>
+    <listType typeId="ffdb82de-b7ff-41a6-a1bb-9dcf2ef47b9c" valueTypeId="17f49008-86a5-4db0-bf11-868b7bf77348"/>
+    <managerType typeId="1445f8c9-3924-4e7a-9b27-c27c9197998d" valueTypeId="67e5c6af-86e3-443e-b139-d6581ef723ef"/>
+    <recordSetType typeId="1ccf26ea-2eb2-410d-bac0-63ba6ae8be6a" valueTypeId="4e642a5f-72d4-418e-9e45-5c80d259a675"/>
+    <recordKeyType typeId="1ee49e56-a337-4220-bf91-4392a752d8e4" valueTypeId="eb27727b-cfc3-4767-979f-496749f2e3ac"/>
+    <recordType typeId="c9da33e1-8223-4616-a32b-c28e8362e5a3" valueTypeId="7ab2c27b-0fc6-4e03-b0d1-d362d4b9cd6c"/>
+    <recordManagerType typeId="0d7a053d-2c39-453c-9eb6-10d98f82bb80" valueTypeId="58303ceb-91fe-4a2d-a74d-7337c55f89fe"/>
+  </producedTypes>
+  <name>ктв_ИспользованиеИменЛогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование имен логов</value>
+  </synonym>
+  <comment></comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ктв_ИспользованиеИменЛогов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ктв_ИспользованиеИменЛогов.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d09c5f51-a98f-49f2-8ba1-4e8913c577cb">
+    <name>СпособЛогирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ логирования</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ктв_СпособыЛогирования</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b45df8a-7c46-4ce8-8b51-e79e429444cb">
+    <name>ИмяЛога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя лога</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="95a3ac9d-b41f-4fbe-b08b-d21d9f30a261">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f781196-0ce4-48e8-bf0c-9b3727111827">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4a6ad131-16fd-4f2a-a8ef-8527567ba327">
+    <name>ИменаЛогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена логов</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b7c758d0-da75-4735-89a5-63b8dceb0baf">
+    <name>ИменаЛогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена логов</value>
+    </synonym>
+    <comment></comment>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.ктв_СпособыЛогирования</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

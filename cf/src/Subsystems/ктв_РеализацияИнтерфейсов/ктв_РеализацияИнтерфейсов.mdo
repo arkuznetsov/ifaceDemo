@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="565c347b-fa61-431a-b31f-fbcfc0229da3">
+  <name>ктв_РеализацияИнтерфейсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация интерфейсов</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <subsystems>ктв_Логирование</subsystems>
+</mdclass:Subsystem>

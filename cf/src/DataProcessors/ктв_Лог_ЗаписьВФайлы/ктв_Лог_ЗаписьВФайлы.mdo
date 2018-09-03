@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd4c66be-04ed-4f05-a80c-4ddbcfe76778">
+  <producedTypes>
+    <objectType typeId="a305446d-2208-43dc-9a82-80e2ef8ca404" valueTypeId="4384590c-dc47-4993-9d26-9e6232df5540"/>
+    <managerType typeId="3eae5360-b54e-4324-a76f-8291c3172b72" valueTypeId="4aead7d3-94b0-4d83-bcc2-0c96a00cb124"/>
+  </producedTypes>
+  <name>ктв_Лог_ЗаписьВФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование: Запись в файлы</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ктв_Лог_ЗаписьВФайлы.Form.Форма</defaultForm>
+  <forms uuid="d2500541-a48c-4926-b431-a649a8f5598d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

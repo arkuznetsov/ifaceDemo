@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd8cd6fb-30fa-4460-a844-2419bedbd285">
+  <producedTypes>
+    <objectType typeId="cb583a41-61e6-4c67-9ad3-7fda18075855" valueTypeId="7e1aecf6-d95e-4962-8cd1-2a6c1dce56b9"/>
+    <managerType typeId="b382492d-5fd9-4be4-b7cf-7eba43233ea1" valueTypeId="56a8233f-827a-4f9b-bd3c-ef8626dbd6c6"/>
+  </producedTypes>
+  <name>ктв_Лог_ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование: Журнал регистрации</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ктв_Лог_ЖурналРегистрации.Form.Форма</defaultForm>
+  <forms uuid="aa82693a-57e1-4436-93ca-f040faf5dc0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe26fa58-cc91-4b3b-b8a3-ba361e1aed32">
+  <name>ктв_Логирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ктв_Лог_ЖурналРегистрации</content>
+  <content>DataProcessor.ктв_Логирование</content>
+  <content>DataProcessor.ктв_ЛогированиеДемо</content>
+  <content>DataProcessor.ктв_Лог_ЗаписьВФайлы</content>
+  <content>Catalog.ктв_СпособыЛогирования</content>
+  <content>InformationRegister.ктв_ИспользованиеИменЛогов</content>
+  <content>CommonTemplate.ктв_Логирование_Версия</content>
+  <content>CommonModule.ктв_ЛогированиеВызовСервера</content>
+  <content>CommonModule.ктв_Логирование</content>
+  <content>CommonModule.ктв_ЛогированиеКлиент</content>
+  <parentSubsystem>Subsystem.ктв_РеализацияИнтерфейсов</parentSubsystem>
+</mdclass:Subsystem>
