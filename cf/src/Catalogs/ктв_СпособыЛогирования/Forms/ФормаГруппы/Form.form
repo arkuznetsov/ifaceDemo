@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
     <name>Родитель</name>
     <id>7</id>
@@ -191,31 +191,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>ОбновитьИдентификатор</name>
-    <title>
-      <key>ru</key>
-      <value>Обновить идентификатор</value>
-    </title>
-    <id>1</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Обновить идентификатор</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Refresh</picture>
-    </picture>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ОбновитьИдентификатор</name>
-      </handler>
-    </action>
-    <representation>Picture</representation>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
