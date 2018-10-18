@@ -3,6 +3,7 @@
 	<name>Ext</name>
 	<comment></comment>
 	<projects>
+		<project>iface</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
